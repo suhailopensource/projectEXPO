@@ -52,13 +52,13 @@ export function SheetDemo() {
                                     } hover:bg-gray-100 justify-center py-2   text-xl rounded text-gray-400 hover:text-gray-800 flex items-center gap-2`}
                             >
                                 {path === "/" ? (
-                                    <a href="#domain" className="text-primary">
+                                    <Link href="#domain" className="text-primary">
                                         Domain&apos;s
-                                    </a>
+                                    </Link>
                                 ) : (
-                                    <a href="/domain" className="">
+                                    <Link href="/domain" className="">
                                         Domain&apos;s
-                                    </a>
+                                    </Link>
                                 )}
                             </div>
                         </SheetClose>
