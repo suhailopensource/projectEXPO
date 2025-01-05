@@ -2,13 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React from "react";
 
+// Ensure this is from "next/navigation"
 import { Separator } from "../ui/separator";
-import { useRouter } from "next/navigation"; // Ensure this is from "next/navigation"
 
 const Navbar = () => {
-    const router = useRouter();
+
     const path = usePathname(); // Ensure `usePathname` is used correctly
 
 
@@ -32,13 +31,13 @@ const Navbar = () => {
                 <Separator className="w-[1px] h-[20px] bg-slate-500 mt-4" />
                 <div className={`${path === "/domain" ? "text-secondary bg-secondary-foreground" : "text-primary"} px-4 rounded py-1 mt-2`}>
                     {path === "/" ? (
-                        <a href="#domain" className="text-primary">
+                        <Link href="#domain" className="text-primary">
                             Domain&apos;s
-                        </a>
+                        </Link>
                     ) : (
-                        <a href="/domain" className="">
+                        <Link href="/domain" className="">
                             Domain&apos;s
-                        </a>
+                        </Link>
                     )}
                 </div>
                 <Separator className="bg-slate-500 w-[1px] h-[20px] mt-4" />

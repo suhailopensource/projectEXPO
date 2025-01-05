@@ -1,21 +1,13 @@
-import { cn } from "@/lib/utils";
-import React from "react";
-import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
+
 import {
-    IconArrowWaveRightUp,
-    IconBoxAlignRightFilled,
-    IconBoxAlignTopLeft,
     IconBrain,
     IconBrandGooglePlay,
-    IconClipboardCopy,
-    IconFileBroken,
     IconPresentationFilled,
     IconRobot,
-    IconShieldLockFilled,
-    IconSignature,
-    IconTableColumn,
+    IconShieldLockFilled
 } from "@tabler/icons-react";
 import Link from "next/link";
+import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
 
 export function BentoGridDemo() {
     return (
@@ -39,9 +31,7 @@ export function BentoGridDemo() {
         </BentoGrid>
     );
 }
-const Skeleton = () => (
-    <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"></div>
-);
+
 const items = [
     {
         title: "AI/ML/DS (Artificial Intelligence, Machine Learning, Data Science)",

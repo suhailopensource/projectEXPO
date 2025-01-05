@@ -2,7 +2,7 @@
 import { BentoGridDemo } from "@/components/shared/Domains";
 import HomePageCard from "@/components/shared/HomePageCard";
 import HomePageCardLeft from "@/components/shared/HomePageCardLeft";
-import MarqueeHome from "@/components/shared/MarqueeHome";
+
 import Image from "next/image";
 
 export default function Home() {
@@ -21,7 +21,7 @@ export default function Home() {
                         <Image height={400} width={400} alt={"TECHFUSION 2025"} src={"https://res.cloudinary.com/dhijs4dq0/image/upload/v1735632112/WhatsApp_Image_2024-12-21_at_11.25.42.jpeg_tebdky.png"} />
                     </div>
                     <div className="text-3xl text-white">
-                        Welcome to TechFusion'25!
+                        Welcome to TechFusion&apos;25!
 
 
                     </div>
