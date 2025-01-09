@@ -9,7 +9,7 @@ const HomePageCard = () => {
                 <div className='flex items-center justify-center flex-col'>
                     <div className='m-2'>
                         <div className='text-xl text-center font-bold'>ABOUT</div>
-                        <Image src={"https://res.cloudinary.com/dhijs4dq0/image/upload/v1735665064/logo_iyrpgz.png"} alt='TECHFUSION 2025' width={500} height={100} />
+                        <Image src={"https://res.cloudinary.com/dhijs4dq0/image/upload/v1735665064/logo_iyrpgz.png"} className="w-auto h-auto" alt='TECHFUSION 2025' width={500} height={100} />
                         <div className='text-lg font-bold text-center'>A National Level Project Expo</div>
                     </div>
                     <div className='text-xl w-[90%] md:w-[80%] mt-10 text-justify' >

@@ -37,9 +37,9 @@ export default function RootLayout({
             <div className="flex gap-x-6 py-6 items-center w-full">
               <div className=" flex items-center justify-between w-full">
                 <div className="pl-2 flex gap-2">
-                  <Image className="hidden md:flex" src="https://res.cloudinary.com/dhijs4dq0/image/upload/v1722259838/logo_zgktuy.png" alt="CRESCENT" width={300} height={40} />
-                  <Image className="flex md:hidden" src="https://res.cloudinary.com/dhijs4dq0/image/upload/v1722259838/logo_zgktuy.png" alt="CRESCENT" width={200} height={40} />
-                  <Image className="" src="https://res.cloudinary.com/dhijs4dq0/image/upload/v1735632112/25th_Logo_kiwuud.png" alt="25 years" width={60} height={0} />
+                  <Image className=" hidden md:flex" src="https://res.cloudinary.com/dhijs4dq0/image/upload/v1722259838/logo_zgktuy.png" alt="CRESCENT" width={300} height={40} />
+                  <Image className=" flex md:hidden" src="https://res.cloudinary.com/dhijs4dq0/image/upload/v1722259838/logo_zgktuy.png" alt="CRESCENT" width={220} height={40} />
+                  <Image className="" src="https://res.cloudinary.com/dhijs4dq0/image/upload/v1735632112/25th_Logo_kiwuud.png" alt="25 years" width={70} height={0} />
 
                   {/* <Image className="" src="https://res.cloudinary.com/dhijs4dq0/image/upload/v1721747314/logo_cres_pk6nmd.png" alt="CRESCENT" width={250} height={0} /> */}
                 </div>

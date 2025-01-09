@@ -44,6 +44,19 @@ export function SheetDemo() {
                     </li>
                     <li className="mb-2">
                         <SheetClose asChild>
+                            <Link
+                                href={"/techfusion"}
+                                className={`${path === "/techfusion"
+                                    ? "bg-secondary-foreground text-primary-foreground"
+                                    : ""
+                                    } hover:bg-gray-100 justify-center py-2 rounded   text-xl text-gray-400 hover:text-gray-800 flex items-center gap-2   `}
+                            >
+                                Techfusion
+                            </Link>
+                        </SheetClose>
+                    </li>
+                    <li className="mb-2">
+                        <SheetClose asChild>
                             <div
 
                                 className={`${path === "/domain"
@@ -61,6 +74,19 @@ export function SheetDemo() {
                                     </Link>
                                 )}
                             </div>
+                        </SheetClose>
+                    </li>
+                    <li className="mb-2">
+                        <SheetClose asChild>
+                            <Link
+                                href={"/team"}
+                                className={`${path === "/team"
+                                    ? "bg-secondary-foreground text-primary-foreground"
+                                    : ""
+                                    } hover:bg-gray-100 justify-center py-2 rounded   text-xl text-gray-400 hover:text-gray-800 flex items-center gap-2   `}
+                            >
+                                Team
+                            </Link>
                         </SheetClose>
                     </li>
 

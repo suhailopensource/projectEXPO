@@ -6,6 +6,7 @@ import HomePageCardLeft from "@/components/shared/HomePageCardLeft";
 import Image from "next/image";
 
 export default function Home() {
+    console.log("HACKING ALERT - DONT TRY TO BE SNEAKY LIL BRO THERE IS NOTHING TO SEE HERE. BUT SINCE YOU ARE HERE VISIT MY PORTFOLIO - https://suhailopensource.vercel.app/")
     return (
         <div className="scroll-smooth">
             {/* <section className="h-[30px] w-full bg-[#fb923c] flex justify-center items-center">

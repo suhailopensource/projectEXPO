@@ -1,5 +1,6 @@
 "use client";
 
+import Rules from "@/components/shared/Rules";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import React from "react";
@@ -19,22 +20,59 @@ const items = [
     {
         id: "web",
         title: "Mobile & Web App Development",
+        realdescription: "Mobile & Web Development is all about creating apps and websites that people use every day. Whether it's a mobile app on a phone or a website on a computer, this domain lets you bring your ideas to life digitally. In today's digital world, mobile apps and websites are the backbone of nearly every business and service. Your project could be the next big app website that people love to use!",
+        htmlPart: <ul className="list-disc text-lg"><li>Designing user-friendly apps for smartphones or tablets?
+
+        </li>
+            <li>  Building websites that work on any device?
+            </li>
+
+            <li>Creating interactive and engaging online experiences?</li>
+        </ul>,
         description: "Ready to share your digital creations? Register now and let your project shine!",
     },
     {
         id: "cyber",
         title: "Cybersecurity",
+        realdescription: "Cybersecurity keeps our data safe from hackers and protects systems from cyber threats. If you're passionate about keeping information secure and preventing digital attacks, this is the domain for you. With so much of our lives online, cybersecurity is more important than ever. Your project could help businesses or individuals stay safe from cybercrime and protect personal data.",
+        htmlPart: <ul className="list-disc text-lg"><li>Securing networks from cyber threats?
+
+
+        </li>
+            <li>      Testing systems for vulnerabilities?
+
+
+            </li>
+
+            <li>Developing encryption or security tools?</li>
+        </ul>,
         description: "Got a solution to make the digital world safer? Register now and show us how you can protect the future!",
-    },
-    {
-        id: "innovation",
-        title: "Innovations in IT",
-        description: "Have a bright idea? Register now and be part of the next wave of young innovators!",
     },
     {
         id: "iotrobot",
         title: "IoT & Robotics",
+        realdescription: "IoT (Internet of Things) and Robotics combine smart technology with physical devices to make them more autonomous and connected. From home automation to robots that can perform tasks, this domain is about creating the next wave of technology. The world is getting smarter with connected devices and intelligent machines. Your project could revolutionize industries or make life easier and more efficient.",
+        htmlPart: <ul className="list-disc text-lg"><li>Building smart devices that connect to the internet?
+
+
+        </li>
+            <li>     Designing robots that can perform tasks on their own? </li>
+            <li>Developing systems that automate everyday processes?</li>
+        </ul>,
         description: "If you're ready to innovate and build the future, register now and bring your IoT and Robotics ideas to life!",
+    },
+    {
+        id: "innovation",
+        title: "Innovations in IT",
+        realdescription: "This domain is all about showcasing creative and tech-driven ideas from students! Whether it’s solving everyday problems or creating something entirely new, your innovative thinking can make a real difference. Innovation starts with curiosity. This is your chance to show off your creative solutions, whether it’s a new tool, a fresh approach to an old problem, or an idea that can change the world.",
+        htmlPart: <ul className="list-disc text-lg"><li>Building a new educational tool?
+
+
+        </li>
+            <li>     Creating something that helps the environment? </li>
+            <li>Coming up with a tech idea to improve health or daily life?</li>
+        </ul>,
+        description: "Have a bright idea? Register now and be part of the next wave of young innovators!",
     },
 ];
 
@@ -66,6 +104,8 @@ const Page = () => {
                 </div>
                 <p className="md:w-[80%] text-justify text-xl">{item.description}</p>
 
+                <Rules />
+
                 <div className="flex mt-10 gap-4 flex-wrap">
                     <Link href={"https://forms.gle/85vbYybHWyobP1tU6"} target="_blank" className='animate-bounce'>
 
@@ -82,6 +122,7 @@ const Page = () => {
                         </button>
                     </Link>
                 </div>
+
             </div>
         </div>
     );

@@ -55,19 +55,19 @@ const items = [
         link: "/domain/cyber"
     },
     {
+        title: "IoT & Robotics",
+        description: "If you're ready to innovate and build the future, register now and bring your IoT and Robotics ideas to life!",
+        header: "https://res.cloudinary.com/dhijs4dq0/image/upload/v1735717749/IoT_vz8dyn.png",
+        icon: <IconRobot className="h-4 w-4 text-neutral-500" />,
+        link: "/domain/iotrobot"
+    },
+    {
         title: "Innovations in IT",
         description:
             "Have a bright idea? Register now and be part of the next wave of young innovators!",
         header: "https://res.cloudinary.com/dhijs4dq0/image/upload/v1735717749/innovations_xbxhap.png",
         icon: <IconPresentationFilled className="h-4 w-4 text-neutral-500" />,
         link: "/domain/innovation"
-    },
-    {
-        title: "IoT & Robotics",
-        description: "If you're ready to innovate and build the future, register now and bring your IoT and Robotics ideas to life!",
-        header: "https://res.cloudinary.com/dhijs4dq0/image/upload/v1735717749/IoT_vz8dyn.png",
-        icon: <IconRobot className="h-4 w-4 text-neutral-500" />,
-        link: "/domain/iotrobot"
     },
 
 ];

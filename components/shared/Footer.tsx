@@ -4,6 +4,7 @@ import React from 'react'
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 // import { AnimatedTooltipPreview } from './devTeam'
 
 const Footer = () => {
@@ -25,6 +26,8 @@ const Footer = () => {
                                 <Link target='_blank' href={"https://www.linkedin.com/school/crescentinstitute/"}><FaLinkedin /></Link></button>
                             <button className="bg-white hover:bg-slate-300 flex text-lightBlue-400 shadow-lg  h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none flex-col mr-2 text-3xl font-extrabold text-red-600" type="button">
                                 <Link target='_blank' href={"https://www.youtube.com/@BSACrescentInstitute/videos"}> <FaYoutube /></Link></button>
+                            <button className="bg-white hover:bg-slate-300 flex text-lightBlue-400 shadow-lg  h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none flex-col mr-2 text-3xl font-extrabold text-red-600" type="button">
+                                <Link target='_blank' href={"mailto:techfusion2k25@gmail.com"}><SiGmail /></Link></button>
 
                         </div>
                     </div>
@@ -53,7 +56,7 @@ const Footer = () => {
                 <div className="flex flex-wrap items-center md:justify-between justify-center">
                     <div className="w-full md:w-4/12 px-4 mx-auto text-center">
                         <div className="text-sm text-blueGray-500 font-semibold py-1 text-black">
-                            Copyright © <span id="get-current-year text-black">2024</span>       <a href="https://github.com/suhailopensource" className="text-black hover:text-white">suhailopensource</a>.
+                            Copyright © <span id="get-current-year text-black">2024</span>       <a target="_blank" href="https://github.com/suhailopensource" className="text-black hover:text-white">techfusion2k25</a>.
                         </div>
                     </div>
                 </div>
