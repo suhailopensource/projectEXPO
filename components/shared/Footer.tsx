@@ -41,10 +41,10 @@ const Footer = () => {
                                 <span className="block uppercase text-black text-lg font-bold mb-2">Contact</span>
                                 <ul className="list-unstyled">
                                     <li>
-                                        <a className="text-black hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">912356245grgr</a>
+                                        <a className="text-black hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">8681050407</a>
                                     </li>
                                     <li>
-                                        <a className="text-black hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">45636356345rw</a>
+                                        <a className="text-black hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">8220718737</a>
                                     </li>
 
                                 </ul>

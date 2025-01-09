@@ -56,25 +56,31 @@ export function SheetDemo() {
                         </SheetClose>
                     </li>
                     <li className="mb-2">
-                        <SheetClose asChild>
-                            <div
 
-                                className={`${path === "/domain"
-                                    ? "bg-secondary-foreground text-primary-foreground"
-                                    : ""
-                                    } hover:bg-gray-100 justify-center py-2   text-xl rounded text-gray-400 hover:text-gray-800 flex items-center gap-2`}
-                            >
-                                {path === "/" ? (
-                                    <Link href="#domain" className="text-primary">
+                        <div
+
+                            className={`${path === "/domain"
+                                ? "bg-secondary-foreground text-primary-foreground"
+                                : ""
+                                } hover:bg-gray-100 justify-center py-2   text-xl rounded text-gray-400 hover:text-gray-800 flex items-center gap-2`}
+                        >
+                            {path === "/" ? (
+                                <SheetClose asChild>
+
+                                    <Link href="#domain" className="">
                                         Domain&apos;s
                                     </Link>
-                                ) : (
+                                </SheetClose>
+                            ) : (
+                                <SheetClose asChild>
+
                                     <Link href="/domain" className="">
                                         Domain&apos;s
                                     </Link>
-                                )}
-                            </div>
-                        </SheetClose>
+                                </SheetClose>
+                            )}
+                        </div>
+
                     </li>
                     <li className="mb-2">
                         <SheetClose asChild>
