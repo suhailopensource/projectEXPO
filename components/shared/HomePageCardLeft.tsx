@@ -8,7 +8,7 @@ const HomePageCardLeft = () => {
                 <div className="grid gap-8 md:grid-cols-2 lg:gap-12 ">
                     <div className='md:mt-[160px]'>
                         <div className="h-full overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
-                            <Image src="https://res.cloudinary.com/dhijs4dq0/image/upload/v1722422171/WhatsApp_Image_2024-07-30_at_8.11.06_PM_1_wuzq1n.jpg" loading="lazy" alt="Photo by Martin Sanchez" width={1000} height={1000} className="h-full w-full object-cover object-center" />
+                            <Image src="https://res.cloudinary.com/dhijs4dq0/image/upload/v1736510116/WhatsApp_Image_2025-01-10_at_11.49.53_AM_mq7sf5.jpg" loading="lazy" alt="Photo by Martin Sanchez" width={1000} height={1000} className="h-full w-full object-cover object-center" />
                         </div>
                     </div>
 
