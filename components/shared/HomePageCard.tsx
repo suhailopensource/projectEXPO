@@ -21,7 +21,7 @@ const HomePageCard = () => {
                 </div>
                 <div className='flex items-center justify-center mt-10 gap-7 flex-wrap'>
                     <Link href="https://forms.gle/85vbYybHWyobP1tU6" target="_blank" className="animate-bounce relative">
-                        <div className="absolute -top-[-40px] -left-[40px] w-20 h-8 bg-red-500 shadow-lg transform -rotate-45 origin-top-left z-20 flex items-center justify-center">
+                        <div className="absolute -top-[-26px] -left-[36px] w-20 h-8 bg-red-500 shadow-lg transform -rotate-45 origin-top-left z-20 flex items-center justify-center">
                             <span className="text-white text-xs font-bold text-center b">Rs. 100/- per student</span>
                         </div>
                         <button className="relative border hover:border-sky-600 duration-500 group cursor-pointer text-sky-50 overflow-hidden h-14 w-56 rounded-md bg-sky-800 p-4 flex justify-center items-center font-extrabold">
