@@ -56,7 +56,7 @@ const Footer = () => {
                 <div className="flex flex-wrap items-center md:justify-between justify-center">
                     <div className="w-full md:w-4/12 px-4 mx-auto text-center">
                         <div className="text-sm text-blueGray-500 font-semibold py-1 text-black">
-                            Copyright © <span id="get-current-year text-black">2024</span>       <a target="_blank" href="https://github.com/suhailopensource" className="text-black hover:text-white">techfusion2k25</a>.
+                            Copyright © <span id="get-current-year text-black">2025</span>       <a target="_blank" href="https://github.com/suhailopensource" className="text-black hover:text-white">techfusion2k25</a>.
                         </div>
                     </div>
                 </div>
