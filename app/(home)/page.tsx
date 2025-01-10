@@ -1,4 +1,4 @@
-
+"use client"
 import { BentoGridDemo } from "@/components/shared/Domains";
 import HomePageCard from "@/components/shared/HomePageCard";
 import HomePageCardLeft from "@/components/shared/HomePageCardLeft";
