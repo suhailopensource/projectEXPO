@@ -122,7 +122,7 @@ export function SheetDemo() {
                             </Link>
                         </SheetClose>
                     </li> */}
-                    <li className="mb-2">
+                    {/* <li className="mb-2">
                         <SheetClose asChild>
                             <Link
                                 href={"/contact"}
@@ -134,7 +134,7 @@ export function SheetDemo() {
                                 Contact
                             </Link>
                         </SheetClose>
-                    </li>
+                    </li> */}
                     <li className="mb-2">
 
                     </li>

@@ -45,10 +45,10 @@ const Navbar = () => {
                     <Link href="/team">Team</Link>
                 </div>
                 <Separator className="bg-slate-500 w-[1px] h-[20px] mt-4" />
-                <div className={`${path === "/contact" ? "text-secondary bg-secondary-foreground" : "text-primary"} px-4 rounded py-1 mt-2`}>
+                {/* <div className={`${path === "/contact" ? "text-secondary bg-secondary-foreground" : "text-primary"} px-4 rounded py-1 mt-2`}>
                     <Link href="/contact">Contact</Link>
-                </div>
-                <Separator className="bg-slate-500 w-[1px] h-[20px] mt-4" />
+                </div> */}
+                {/* <Separator className="bg-slate-500 w-[1px] h-[20px] mt-4" /> */}
             </div>
         </div>
     );
