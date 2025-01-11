@@ -1,5 +1,6 @@
 "use client";
 
+import PPT from "@/components/shared/PPT";
 import Rules from "@/components/shared/Rules";
 import Link from "next/link";
 import { useParams } from "next/navigation";
@@ -105,6 +106,7 @@ const Page = () => {
                 <p className="md:w-[80%] text-justify text-xl">{item.description}</p>
 
                 <Rules />
+                <PPT />
 
                 <div className="flex mt-10 gap-4 flex-wrap">
                     <Link href={"https://forms.gle/85vbYybHWyobP1tU6"} target="_blank" className='animate-bounce'>
