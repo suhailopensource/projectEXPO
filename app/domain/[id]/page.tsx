@@ -106,9 +106,12 @@ const Page = () => {
                 <p className="md:w-[80%] text-justify text-xl">{item.description}</p>
 
                 <Rules />
-                <PPT />
+                <div className="mb-2">
 
-                <div className="flex mt-10 gap-4 flex-wrap">
+                    <PPT />
+                </div>
+
+                {/* <div className="flex mt-10 gap-4 flex-wrap">
                     <Link href={"https://forms.gle/85vbYybHWyobP1tU6"} target="_blank" className='animate-bounce'>
 
                         <button className="relative border0 duration-500 group cursor-pointer  overflow-hidden h-14 bg-orange-500 w-56 rounded-md  p-4 flex justify-center items-center font-extrabold hover:opacity-75">
@@ -123,7 +126,7 @@ const Page = () => {
                             <p className="z-10">REGISTRATION FOR SCHOOL STUDENTS</p>
                         </button>
                     </Link>
-                </div>
+                </div> */}
 
             </div>
         </div>

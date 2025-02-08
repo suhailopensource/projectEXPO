@@ -4,16 +4,45 @@ import React from 'react'
 
 const page = () => {
     return (
-        <div className='domainPage flex justify-center items-center flex-col'>
-            <div className='my-10'><Image width={200} height={200} className='w-auto h-auto' alt="TECHFUSION" src={"https://res.cloudinary.com/dhijs4dq0/image/upload/v1735665064/logo_iyrpgz.png"} /></div>
-            <div>
-                <Image width={400} height={500} className='w-auto h-auto mb-4' alt="TECHFUSION" src={"https://res.cloudinary.com/dhijs4dq0/image/upload/v1736510115/WhatsApp_Image_2025-01-09_at_5.50.46_PM_puxxug.jpg"} />
+        <div className='domainPage flex justify-center items-center flex-col gap-y-7'>
+            {/* <div className='my-10'><Image width={200} height={200} className='w-auto h-auto' alt="TECHFUSION" src={"https://res.cloudinary.com/dhijs4dq0/image/upload/v1735665064/logo_iyrpgz.png"} /></div> */}
+            <div className='my-10'><div className='text-center text-5xl text-white  m-2'>Thank you for making Techfusion ’25 a success!</div></div>
+            <div className='border'>
+
+                <div>
+                    <Image width={400} height={500} className='w-auto h-auto mb-4' alt="TECHFUSION" src={"https://res.cloudinary.com/dhijs4dq0/image/upload/v1738991600/1_vhk6ms.jpg"} />
+                </div>
+                <div className='flex  text-justify text-white md:w-[600px] flex-wrap w-[90%] px-2'>
+                    The Department of Information Technology, B. S. Abdur Rahman Crescent Institute of Science and Technology proudly hosted "TechFusion&apos;25 - A National Level Project Expo", an exciting platform for students to showcase their technical innovations. On 30th January 2025, the event brought together over 100 participants from 12+ colleges and schools, competing across five diverse domains: Artificial Intelligence / Machine Learning / Data Science, Mobile & Web Development, Cybersecurity, IoT & Robotics, and Innovations in IT.
+                </div>
             </div>
-            <div>
-                <Image width={400} height={500} className='w-auto h-auto' alt="TECHFUSION" src={"https://res.cloudinary.com/dhijs4dq0/image/upload/v1736403242/WhatsApp_Image_2025-01-09_at_10.58.16_AM_jgyvkk.jpg"} />
+            <div className='border'>
+
+
+                <Image width={400} height={500} className='w-auto h-auto ' alt="TECHFUSION" src={"https://res.cloudinary.com/dhijs4dq0/image/upload/v1738991600/2_z1wsy8.jpg"} />
+
 
             </div>
-            <div className='flex items-center justify-center mt-10 gap-7 flex-wrap mb-10'>
+            <div className='border mb-2'>
+
+                <div>
+                    <Image width={400} height={500} className='w-auto h-auto mb-2' alt="TECHFUSION" src={"https://res.cloudinary.com/dhijs4dq0/image/upload/v1738991600/3_tjffza.jpg"} />
+                </div>
+                <div>
+                    <Image width={400} height={500} className='w-auto h-auto mb-2' alt="TECHFUSION" src={"https://res.cloudinary.com/dhijs4dq0/image/upload/v1738991600/4_l8qxxb.jpg"} />
+                </div>
+                <div>
+                    <Image width={400} height={500} className='w-auto h-auto mb-2' alt="TECHFUSION" src={"https://res.cloudinary.com/dhijs4dq0/image/upload/v1738991600/5_pagcwy.jpg"} />
+                </div>
+                <div>
+                    <Image width={400} height={500} className='w-auto h-auto mb-4' alt="TECHFUSION" src={"https://res.cloudinary.com/dhijs4dq0/image/upload/v1738991600/6_urdrln.jpg"} />
+                </div>
+                <div className='flex  text-justify text-white md:w-[600px] flex-wrap w-[90%] px-2'>
+                    From an AI powered sign language translator and a smart home automation system to a medication reminder robot and an IoT plant care system, the innovations inspired attendees and judges alike. Every project was a testament to the participant&apos;s hard work, and all innovations were recognized with awards. With an overwhelming response and active participation, the expo concluded on a high note.
+                </div>
+            </div>
+
+            {/* <div className='flex items-center justify-center mt-10 gap-7 flex-wrap mb-10'>
 
                 <Link href="https://forms.gle/85vbYybHWyobP1tU6" target="_blank" className="animate-bounce relative">
                     <div className="absolute -top-[-26px] -left-[36px] w-20 h-8 bg-red-500 shadow-lg transform -rotate-45 origin-top-left z-20 flex items-center justify-center">
@@ -42,7 +71,7 @@ const page = () => {
                         <p className="z-10">REGISTRATION FOR SCHOOL STUDENTS</p>
                     </button>
                 </Link>
-            </div>
+            </div> */}
         </div>
     )
 }

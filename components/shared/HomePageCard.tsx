@@ -19,7 +19,7 @@ const HomePageCard = () => {
                         </p>
                     </div>
                 </div>
-                <div className='flex items-center justify-center mt-10 gap-7 flex-wrap'>
+                {/* <div className='flex items-center justify-center mt-10 gap-7 flex-wrap'>
                     <Link href="https://forms.gle/85vbYybHWyobP1tU6" target="_blank" className="animate-bounce relative">
                         <div className="absolute -top-[-26px] -left-[36px] w-20 h-8 bg-red-500 shadow-lg transform -rotate-45 origin-top-left z-20 flex items-center justify-center">
                             <span className="text-white text-xs font-bold text-center b">Rs. 100/- per student</span>
@@ -47,7 +47,7 @@ const HomePageCard = () => {
                             <p className="z-10">REGISTRATION FOR SCHOOL STUDENTS</p>
                         </button>
                     </Link>
-                </div>
+                </div> */}
             </div>
         </div>
 
