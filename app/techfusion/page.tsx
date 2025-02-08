@@ -1,19 +1,17 @@
 import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
 
 const page = () => {
     return (
         <div className='domainPage flex justify-center items-center flex-col gap-y-7'>
             {/* <div className='my-10'><Image width={200} height={200} className='w-auto h-auto' alt="TECHFUSION" src={"https://res.cloudinary.com/dhijs4dq0/image/upload/v1735665064/logo_iyrpgz.png"} /></div> */}
-            <div className='my-10'><div className='text-center text-5xl text-white  m-2'>Thank you for making Techfusion ’25 a success!</div></div>
+            <div className='my-10'><div className='text-center text-5xl text-white  m-2'>Thank you for making Techfusion &apos;25 a success!</div></div>
             <div className='border'>
 
                 <div>
                     <Image width={400} height={500} className='w-auto h-auto mb-4' alt="TECHFUSION" src={"https://res.cloudinary.com/dhijs4dq0/image/upload/v1738991600/1_vhk6ms.jpg"} />
                 </div>
                 <div className='flex  text-justify text-white md:w-[600px] flex-wrap w-[90%] px-2'>
-                    The Department of Information Technology, B. S. Abdur Rahman Crescent Institute of Science and Technology proudly hosted "TechFusion&apos;25 - A National Level Project Expo", an exciting platform for students to showcase their technical innovations. On 30th January 2025, the event brought together over 100 participants from 12+ colleges and schools, competing across five diverse domains: Artificial Intelligence / Machine Learning / Data Science, Mobile & Web Development, Cybersecurity, IoT & Robotics, and Innovations in IT.
+                    The Department of Information Technology, B. S. Abdur Rahman Crescent Institute of Science and Technology proudly hosted &quot;TechFusion&apos;25 - A National Level Project Expo&quot;, an exciting platform for students to showcase their technical innovations. On 30th January 2025, the event brought together over 100 participants from 12+ colleges and schools, competing across five diverse domains: Artificial Intelligence / Machine Learning / Data Science, Mobile & Web Development, Cybersecurity, IoT & Robotics, and Innovations in IT.
                 </div>
             </div>
             <div className='border'>

@@ -2,7 +2,6 @@
 
 import PPT from "@/components/shared/PPT";
 import Rules from "@/components/shared/Rules";
-import Link from "next/link";
 import { useParams } from "next/navigation";
 import React from "react";
 
